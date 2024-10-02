@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do JavaScript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <header class="text-center my-4 bg-primary text-white p-4 rounded">
+            <h1 class="display-4">História do JavaScript</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#htmlModal">
+                            <img src="html.jpg" alt="HTML" class="img-fluid rounded" style="width: 200px;">
+                            <p>Clique aqui</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#cssModal">
+                            <img src="css.jpg" alt="CSS" class="img-fluid rounded" style="width: 150px;">
+                            <p>Clique aqui</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" data-toggle="modal" data-target="#phpModal">
+                            <img src="php.jpg" alt="PHP" class="img-fluid rounded" style="width: 150px;">
+                            <p>Clique aqui</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="bg-white p-4 rounded shadow-sm">
+            <h2 class="display-5 text-primary">JavaScript</h2>
+            <p><strong>Criação (1995)</strong><br>Desenvolvedor: Brendan Eich<br>Objetivo: Criar uma linguagem de programação leve para interagir com elementos da web.</p>
+            <p><strong>Lançamento (1995)</strong><br>JavaScript foi lançado junto com o navegador Netscape Navigator 2.0.</p>
+            <p><strong>Evolução e Padrões (1996-1999)</strong><br>Em 1997, a linguagem foi padronizada pela ECMA International.</p>
+            <p><strong>Crescimento e Adoção (2000-2010)</strong><br>A popularização de bibliotecas como jQuery facilitou o uso do JavaScript.</p>
+            <p><strong>Evolução moderna (2010 em diante)</strong><br>HTML5 trouxe novas APIs que ampliaram as capacidades do JavaScript.</p>
+            <p><strong>JavaScript hoje</strong><br>JavaScript é uma das linguagens de programação mais populares do mundo.</p>
+        </section>
+    </div>
+
+  
+    <div class="modal fade" id="htmlModal" tabindex="-1" aria-labelledby="htmlModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="htmlModalLabel">JavaScript e HTML</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Interatividade: JavaScript permite que os desenvolvedores adicionem interatividade às páginas HTML, como validação de formulários, manipulação de eventos e animações.</p>
+                    <p>Manipulação do DOM: JavaScript pode acessar e modificar o Document Object Model (DOM), que é a representação da estrutura da página HTML. Isso permite alterar conteúdo, estilo e estrutura dinamicamente.</p>
+                    <p>Eventos: JavaScript pode responder a eventos do usuário, como cliques, movimentos do mouse e entradas de teclado, tornando a experiência do usuário mais dinâmica.</p>
+                    <p>Integração: O JavaScript é geralmente incluído em arquivos HTML através da tag (script), permitindo a execução de código ao carregar a página ou em resposta a ações do usuário.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cssModal" tabindex="-1" aria-labelledby="cssModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="cssModalLabel">JavaScript e CSS</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Manipulação de Estilos: JavaScript pode alterar propriedades de estilo CSS em tempo real, permitindo que os desenvolvedores modifiquem a aparência de elementos da página com base em ações do usuário (por exemplo, cliques, movimentos do mouse).</p>
+                    <p>Classes Dinâmicas: JavaScript pode adicionar, remover ou alternar classes CSS em elementos, facilitando a aplicação de estilos diferentes sem recarregar a página.</p>
+                    <p>Animações: Com JavaScript, é possível criar animações complexas que vão além das capacidades de CSS, como mudanças de estilo sequenciais ou com base em interações do usuário.</p>
+                    <p>Interatividade: JavaScript permite a implementação de comportamentos dinâmicos que afetam o CSS, como esconder ou mostrar elementos, modificar layouts ou alterar cores com base em condições específicas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="phpModal" tabindex="-1" aria-labelledby="phpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="phpModalLabel">JavaScript e PHP</h5>
+                    <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lado do Cliente vs. Lado do Servidor: JavaScript é executado no lado do cliente (navegador), enquanto PHP é executado no lado do servidor. Isso significa que PHP pode gerar HTML dinâmico e enviar ao navegador, onde o JavaScript pode ser usado para manipular esse conteúdo.</p>
+                    <p>Comunicação Assíncrona: JavaScript pode fazer requisições assíncronas ao servidor usando AJAX, permitindo que a página carregue dados em segundo plano (por exemplo, atualizar informações sem recarregar a página). Essas requisições podem chamar scripts PHP para processar dados.</p>
+                    <p>Manipulação de Dados: PHP pode lidar com a lógica de negócios e o acesso ao banco de dados, enquanto JavaScript pode ser usado para apresentar esses dados ao usuário de forma interativa.</p>
+                    <p>Formulários: JavaScript pode validar formulários no lado do cliente antes de enviar os dados para um script PHP no lado do servidor, melhorando a experiência do usuário e reduzindo a carga no servidor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
